@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/index.css" rel="stylesheet" type="text/css" />
+    <link href="assets/styles/bmi-calculator.css" rel="stylesheet" type="text/css" />
+    <title>Kalkulator BMI</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="./portofolio.html">
+                        Portofolio
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Kalkulator BMI</h1>
+            <div class="bmi-form">
+                <form onsubmit="calculateBMI()">
+                    <div class="bmi-form-input"><input id="body-height" type="text" placeholder="Tinggi Badan(cm)"></div>
+                    <div class="bmi-form-input"><input id="body-weight" type="text" placeholder="Berat Badan(kg)"></div>
+                    <div class="button-submit"><input type="submit" value="Lihat Hasil"> </div>
+                </form>
+            </div>
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <h1>Skilvul 2020</h1>
+    </footer>
+
+    <script src="assets/scripts/bmicalculator.js" type="text/javascript"></script>
+</body>
+
+</html>

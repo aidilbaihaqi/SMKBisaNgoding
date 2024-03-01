@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    border: brown 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+footer {
+    text-align: center;
+}

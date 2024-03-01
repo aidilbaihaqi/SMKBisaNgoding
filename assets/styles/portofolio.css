@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    
+}
+
+.apllication {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.application-list {
+    width: 300px;
+    margin: 0 20px;
+}
+
+.application-list img {
+    width: 100%;
+}
+
+.application-list p {
+    text-align: center;
+}
+

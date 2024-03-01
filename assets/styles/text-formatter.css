@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.form-input-text-formatter {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input-text-formatter input {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}

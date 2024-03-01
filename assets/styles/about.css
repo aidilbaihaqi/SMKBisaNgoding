@@ -1,0 +1,27 @@
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+.quote h1 {
+    width: 200px;
+}
+
+
+.hobbies h1 {
+    text-align: center;
+}
+
+.hobbies ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.hobbies ul li {
+    border: 2px dashed black;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
